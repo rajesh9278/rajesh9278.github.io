@@ -2,6 +2,7 @@
 const api = 'bf2908918319c42bf6c87f0ef3c0bd88'; //Replace with your API
 
 const iconImg = document.getElementById('weather-icon');
+const Title = document.querySelector('Hello World');
 const loc = document.querySelector('#location');
 const tempC = document.querySelector('.c');
 const tempF = document.querySelector('.f');
