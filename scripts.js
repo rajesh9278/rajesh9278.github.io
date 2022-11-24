@@ -40,7 +40,6 @@ window.addEventListener('load', () => {
 
           // Interacting with DOM to show data
           iconImg.src = iconUrl;
-          title.textContent = 'Hello World!';
           loc.textContent = `${place}`;
           desc.textContent = `${description}`;
           tempC.textContent = `${temp.toFixed(2)} °C`;
